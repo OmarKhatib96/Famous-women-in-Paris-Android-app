@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="660dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="top|center_vertical"
+        android:text="Info générales sur l’application :  \n \n
+* URL des données: \n
+https://opendata.paris.fr/api/records/1.0/search/?dataset=femmes-illustres-a-paris-portraits&amp;facet=short_desc&amp;fbclid=IwAR1AzMmLexxSmPThbyiE2dtjJfsnJGIiH3JIP4JDlbI3ee6rzWl99bKmt78 \n \n
+* Explications des données affichées: \n
+Du jardin Nelson Mandela au Parc des Princes – découvrez Paris à travers ses portraits de femmes illustres. \n
+A l’occasion de la coupe féminine du monde de la FIFA 2019, partez sur les traces des parisiennes illustres à travers les lieux emblématiques de leurs vies. Ce jeu de données correspond au contenu de la Web application Paris.fr elle même intégrée au site Parisinfo.com Site officiel de l'Office du Tourisme et des Congrès\n \n
+
+* Librairies et licences: \n
+- Langage de développement : Kotlin v1.3.50 \n
+- Gestion des requêtes API : Retrofit 2.6.2 \n
+- Affichage de la carte : Play Services Maps 17.0.0 \n
+- Gestion de téléchargement d'image : Glide 4.9.0 \n
+- Conversion entre des objets Java et JSON : gson 2.8.6 \n
+"
+        android:textSize="16sp"
+        />
+</RelativeLayout>
